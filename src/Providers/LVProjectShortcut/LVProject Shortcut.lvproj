@@ -26,8 +26,6 @@
 		<Item Name="LVProjectShortcut_CreateNewWizard_Interface.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_CreateNewWizard_Interface.vi"/>
 		<Item Name="LVProjectShortcut_CreateNewWizard_Invoke.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_CreateNewWizard_Invoke.vi"/>
 		<Item Name="LVProjectShortcut_CreateShortcut.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_CreateShortcut.vi"/>
-		<Item Name="LVProjectShortcut_Global_Init.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_Global_Init.vi"/>
-		<Item Name="LVProjectShortcut_Global_Interface.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_Global_Interface.vi"/>
 		<Item Name="LVProjectShortcut_Item_CanDragToProjectWindow.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_Item_CanDragToProjectWindow.vi"/>
 		<Item Name="LVProjectShortcut_Item_CanDropItem.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_Item_CanDropItem.vi"/>
 		<Item Name="LVProjectShortcut_Item_Init.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_Item_Init.vi"/>
@@ -37,6 +35,7 @@
 		<Item Name="LVProjectShortcut_Item_OnDblClick.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_Item_OnDblClick.vi"/>
 		<Item Name="LVProjectShortcut_Item_OnDropItem.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_Item_OnDropItem.vi"/>
 		<Item Name="LVProjectShortcut_Item_OnPopupMenu.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_Item_OnPopupMenu.vi"/>
+		<Item Name="LVProjectShortcut_Item_OnWizardComplete.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_Item_OnWizardComplete.vi"/>
 		<Item Name="LVProjectShortcut_OnShortcutEdit.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_OnShortcutEdit.vi"/>
 		<Item Name="LVProjectShortcut_OnShortcutView.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_OnShortcutView.vi"/>
 		<Item Name="LVProjectShortcut_Provider_Interface.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_Provider_Interface.vi"/>
@@ -49,7 +48,6 @@
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 			</Item>
 			<Item Name="CreateNewWizard_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/CreateNewWizard_Interface.ctl"/>
-			<Item Name="Global_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Global_Interface.ctl"/>
 			<Item Name="Item_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Item_Interface.ctl"/>
 			<Item Name="ItemRef.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/ItemRef.ctl"/>
 			<Item Name="mxLvAddIconOverlays.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvAddIconOverlays.vi"/>
@@ -59,10 +57,12 @@
 			<Item Name="mxLvGetBooleanProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetBooleanProperty.vi"/>
 			<Item Name="mxLvGetItemRef.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetItemRef.vi"/>
 			<Item Name="mxLvGetNIIM.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetNIIM.vi"/>
+			<Item Name="mxLvGetProjectPath.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetProjectPath.vi"/>
 			<Item Name="mxLvGetProjectRef.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetProjectRef.vi"/>
 			<Item Name="mxLvGetStringProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetStringProperty.vi"/>
 			<Item Name="mxLvMenuItem.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvMenuItem.ctl"/>
 			<Item Name="mxLvNIIM.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvNIIM.ctl"/>
+			<Item Name="mxLvNotifyChanged.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvNotifyChanged.vi"/>
 			<Item Name="mxLvOverlayAlias.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvOverlayAlias.ctl"/>
 			<Item Name="mxLvOverlayState.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvOverlayState.ctl"/>
 			<Item Name="mxLvProvider.mxx" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/mxLvProvider.mxx"/>
