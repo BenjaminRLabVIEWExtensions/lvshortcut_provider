@@ -11,36 +11,37 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="support" Type="Folder">
-			<Item Name="LVProjectShortcut_Command.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/support/LVProjectShortcut_Command.vi"/>
-			<Item Name="LVProjectShortcut_GetItemIcon.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/support/LVProjectShortcut_GetItemIcon.vi"/>
-			<Item Name="LVProjectShortcut_InitProperties.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/support/LVProjectShortcut_InitProperties.vi"/>
-			<Item Name="LVProjectShortcut_RegisterOverlays.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/support/LVProjectShortcut_RegisterOverlays.vi"/>
-			<Item Name="LVProjectShortcut_RunEdit.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/support/LVProjectShortcut_RunEdit.vi"/>
-			<Item Name="LVProjectShortcut_RunView.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/support/LVProjectShortcut_RunView.vi"/>
-			<Item Name="LVProjectShortcut_WriteProperties.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/support/LVProjectShortcut_WriteProperties.vi"/>
+			<Item Name="LVProjectShortcut_BrowseActiveProject.vi" Type="VI" URL="../support/LVProjectShortcut_BrowseActiveProject.vi"/>
+			<Item Name="LVProjectShortcut_Command.vi" Type="VI" URL="../support/LVProjectShortcut_Command.vi"/>
+			<Item Name="LVProjectShortcut_GetItemIcon.vi" Type="VI" URL="../support/LVProjectShortcut_GetItemIcon.vi"/>
+			<Item Name="LVProjectShortcut_InitProperties.vi" Type="VI" URL="../support/LVProjectShortcut_InitProperties.vi"/>
+			<Item Name="LVProjectShortcut_RegisterOverlays.vi" Type="VI" URL="../support/LVProjectShortcut_RegisterOverlays.vi"/>
+			<Item Name="LVProjectShortcut_RunEdit.vi" Type="VI" URL="../support/LVProjectShortcut_RunEdit.vi"/>
+			<Item Name="LVProjectShortcut_RunView.vi" Type="VI" URL="../support/LVProjectShortcut_RunView.vi"/>
+			<Item Name="LVProjectShortcut_WriteProperties.vi" Type="VI" URL="../support/LVProjectShortcut_WriteProperties.vi"/>
 		</Item>
-		<Item Name="LVProjectShortcut_CreateNewWizard_Finalize.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_CreateNewWizard_Finalize.vi"/>
-		<Item Name="LVProjectShortcut_CreateNewWizard_GetWeight.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_CreateNewWizard_GetWeight.vi"/>
-		<Item Name="LVProjectShortcut_CreateNewWizard_IncludeItem.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_CreateNewWizard_IncludeItem.vi"/>
-		<Item Name="LVProjectShortcut_CreateNewWizard_Init.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_CreateNewWizard_Init.vi"/>
-		<Item Name="LVProjectShortcut_CreateNewWizard_Interface.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_CreateNewWizard_Interface.vi"/>
-		<Item Name="LVProjectShortcut_CreateNewWizard_Invoke.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_CreateNewWizard_Invoke.vi"/>
-		<Item Name="LVProjectShortcut_CreateShortcut.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_CreateShortcut.vi"/>
-		<Item Name="LVProjectShortcut_Item_CanDragToProjectWindow.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_Item_CanDragToProjectWindow.vi"/>
-		<Item Name="LVProjectShortcut_Item_CanDropItem.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_Item_CanDropItem.vi"/>
-		<Item Name="LVProjectShortcut_Item_Init.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_Item_Init.vi"/>
-		<Item Name="LVProjectShortcut_Item_Interface.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_Item_Interface.vi"/>
-		<Item Name="LVProjectShortcut_Item_NotifyChanged.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_Item_NotifyChanged.vi"/>
-		<Item Name="LVProjectShortcut_Item_OnCommand.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_Item_OnCommand.vi"/>
-		<Item Name="LVProjectShortcut_Item_OnDblClick.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_Item_OnDblClick.vi"/>
-		<Item Name="LVProjectShortcut_Item_OnDropItem.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_Item_OnDropItem.vi"/>
-		<Item Name="LVProjectShortcut_Item_OnPopupMenu.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_Item_OnPopupMenu.vi"/>
-		<Item Name="LVProjectShortcut_Item_OnWizardComplete.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_Item_OnWizardComplete.vi"/>
-		<Item Name="LVProjectShortcut_OnShortcutEdit.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_OnShortcutEdit.vi"/>
-		<Item Name="LVProjectShortcut_OnShortcutView.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_OnShortcutView.vi"/>
-		<Item Name="LVProjectShortcut_Provider_Interface.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_Provider_Interface.vi"/>
-		<Item Name="LVProjectShortcut_Provider_OnCommand.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_Provider_OnCommand.vi"/>
-		<Item Name="LVProjectShortcut_Provider_OnPopupMenu.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVProjectShortcut/LVProjectShortcut_Provider_OnPopupMenu.vi"/>
+		<Item Name="LVProjectShortcut_CreateNewWizard_Finalize.vi" Type="VI" URL="../LVProjectShortcut_CreateNewWizard_Finalize.vi"/>
+		<Item Name="LVProjectShortcut_CreateNewWizard_GetWeight.vi" Type="VI" URL="../LVProjectShortcut_CreateNewWizard_GetWeight.vi"/>
+		<Item Name="LVProjectShortcut_CreateNewWizard_IncludeItem.vi" Type="VI" URL="../LVProjectShortcut_CreateNewWizard_IncludeItem.vi"/>
+		<Item Name="LVProjectShortcut_CreateNewWizard_Init.vi" Type="VI" URL="../LVProjectShortcut_CreateNewWizard_Init.vi"/>
+		<Item Name="LVProjectShortcut_CreateNewWizard_Interface.vi" Type="VI" URL="../LVProjectShortcut_CreateNewWizard_Interface.vi"/>
+		<Item Name="LVProjectShortcut_CreateNewWizard_Invoke.vi" Type="VI" URL="../LVProjectShortcut_CreateNewWizard_Invoke.vi"/>
+		<Item Name="LVProjectShortcut_CreateShortcut.vi" Type="VI" URL="../LVProjectShortcut_CreateShortcut.vi"/>
+		<Item Name="LVProjectShortcut_Item_CanDragToProjectWindow.vi" Type="VI" URL="../LVProjectShortcut_Item_CanDragToProjectWindow.vi"/>
+		<Item Name="LVProjectShortcut_Item_CanDropItem.vi" Type="VI" URL="../LVProjectShortcut_Item_CanDropItem.vi"/>
+		<Item Name="LVProjectShortcut_Item_Init.vi" Type="VI" URL="../LVProjectShortcut_Item_Init.vi"/>
+		<Item Name="LVProjectShortcut_Item_Interface.vi" Type="VI" URL="../LVProjectShortcut_Item_Interface.vi"/>
+		<Item Name="LVProjectShortcut_Item_NotifyChanged.vi" Type="VI" URL="../LVProjectShortcut_Item_NotifyChanged.vi"/>
+		<Item Name="LVProjectShortcut_Item_OnCommand.vi" Type="VI" URL="../LVProjectShortcut_Item_OnCommand.vi"/>
+		<Item Name="LVProjectShortcut_Item_OnDblClick.vi" Type="VI" URL="../LVProjectShortcut_Item_OnDblClick.vi"/>
+		<Item Name="LVProjectShortcut_Item_OnDropItem.vi" Type="VI" URL="../LVProjectShortcut_Item_OnDropItem.vi"/>
+		<Item Name="LVProjectShortcut_Item_OnPopupMenu.vi" Type="VI" URL="../LVProjectShortcut_Item_OnPopupMenu.vi"/>
+		<Item Name="LVProjectShortcut_Item_OnWizardComplete.vi" Type="VI" URL="../LVProjectShortcut_Item_OnWizardComplete.vi"/>
+		<Item Name="LVProjectShortcut_OnShortcutEdit.vi" Type="VI" URL="../LVProjectShortcut_OnShortcutEdit.vi"/>
+		<Item Name="LVProjectShortcut_OnShortcutView.vi" Type="VI" URL="../LVProjectShortcut_OnShortcutView.vi"/>
+		<Item Name="LVProjectShortcut_Provider_Interface.vi" Type="VI" URL="../LVProjectShortcut_Provider_Interface.vi"/>
+		<Item Name="LVProjectShortcut_Provider_OnCommand.vi" Type="VI" URL="../LVProjectShortcut_Provider_OnCommand.vi"/>
+		<Item Name="LVProjectShortcut_Provider_OnPopupMenu.vi" Type="VI" URL="../LVProjectShortcut_Provider_OnPopupMenu.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
