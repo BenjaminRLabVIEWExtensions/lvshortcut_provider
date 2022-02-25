@@ -15,4 +15,4 @@
 *.aliases
 *.lvlps
 .cache/
-src/builds
+builds
