@@ -6,6 +6,8 @@
 [![Zero-Clause BSD][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
+# LabVIEW Shortcut Provider
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -19,8 +21,6 @@
     </li>
   </ol>
 </details>
-  
-# LabVIEW Shortcut Provider
 
 The idea. behind this plugin, is to be able to create Shortcuts, as we have on our desktop, to LabVIEW files directly within a LabVIEW project tree. This will allow developper to quickly open VIs, LVClass, RunTime Menu, ..., from the project tree root. 
 
