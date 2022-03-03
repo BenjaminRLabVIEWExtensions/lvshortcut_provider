@@ -1,5 +1,5 @@
 [![GitHub all releases][release-shield]][release-url]
-![Wiki][wiki-shield]][wiki-url]
+[![Wiki][wiki-shield]][wiki-url]
 [![Issues][issues-shield]][issues-url]
 [![Zero-Clause BSD][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
@@ -45,13 +45,13 @@ The LabVIEW Shortcut Provider is a primary LabVIEW Project Provider, responsible
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[release-shield]: https://img.shields.io/github/downloads/BenjaminRLabVIEWExtensions/lvshortcut_provider/total?style=for-the-badge
+[release-url]: https://github.com/BenjaminRLabVIEWExtensions/template/releases
+[wiki-shield]: https://img.shields.io/github/discussions/BenjaminRLabVIEWExtensions/lvshortcut_provider?style=for-the-badge
+[wiki-url]: https://github.com/BenjaminRLabVIEWExtensions/template/wiki
 [issues-shield]: https://img.shields.io/github/issues/BenjaminRLabVIEWExtensions/template?style=for-the-badge
 [issues-url]: https://github.com/BenjaminRLabVIEWExtensions/template/issues
 [license-shield]: https://img.shields.io/badge/LICENSE-Zero--Clause%20BSD-green?style=for-the-badge
 [license-url]: https://github.com/BenjaminRLabVIEWExtensions/template/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/benjaminrouffet/
-[wiki-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[wiki-url]: https://github.com/BenjaminRLabVIEWExtensions/template/wiki
-[release-shield]: https://img.shields.io/github/downloads/BenjaminRLabVIEWExtensions/lvshortcut_provider/total?style=for-the-badge
-[release-url]: https://github.com/BenjaminRLabVIEWExtensions/template/releases
