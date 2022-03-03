@@ -1,3 +1,9 @@
+[![GitHub all releases][release-shield]][release-url]
+![Wiki][wiki-shield]][wiki-url]
+[![Issues][issues-shield]][issues-url]
+[![Zero-Clause BSD][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
 # LabVIEW Shortcut Provider
 
 The idea. behind this plugin, is to be able to create Shortcuts, as we have on our desktop, to LabVIEW files directly within a LabVIEW project tree. This will allow developper to quickly open VIs, LVClass, RunTime Menu, ..., from the project tree root. 
@@ -36,3 +42,16 @@ The LabVIEW Project Provider Framework is a previously internal-only feature for
 If you’re interested in learning more about this framework, please visit the [LabVIEW Project Providers group](https://forums.ni.com/t5/LabVIEW-Project-Providers/bd-p/bymqyodmkc) on the NI Community.
 
 The LabVIEW Shortcut Provider is a primary LabVIEW Project Provider, responsible for putting one or more new shortcut item types into the project tree.
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[issues-shield]: https://img.shields.io/github/issues/BenjaminRLabVIEWExtensions/template?style=for-the-badge
+[issues-url]: https://github.com/BenjaminRLabVIEWExtensions/template/issues
+[license-shield]: https://img.shields.io/badge/LICENSE-Zero--Clause%20BSD-green?style=for-the-badge
+[license-url]: https://github.com/BenjaminRLabVIEWExtensions/template/master/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/benjaminrouffet/
+[wiki-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[wiki-url]: https://github.com/BenjaminRLabVIEWExtensions/template/wiki
+[release-shield]: https://img.shields.io/github/downloads/BenjaminRLabVIEWExtensions/lvshortcut_provider/total?style=for-the-badge
+[release-url]: https://github.com/BenjaminRLabVIEWExtensions/template/releases
