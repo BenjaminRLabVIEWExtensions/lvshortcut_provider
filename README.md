@@ -1,9 +1,25 @@
+<div id="top"></div>
+
 [![GitHub all releases][release-shield]][release-url]
 [![Wiki][wiki-shield]][wiki-url]
 [![Issues][issues-shield]][issues-url]
 [![Zero-Clause BSD][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#labview-shortcut-provider">LabVIEW Shortcut Provider</a>
+      <ul>
+        <li><a href="#use-cases">Use Cases</a></li>
+        <li><a href="#labview-shortcut-providers">LabVIEW Project Providers</a></li>
+      </ul>
+    </li>
+  </ol>
+</details>
+  
 # LabVIEW Shortcut Provider
 
 The idea. behind this plugin, is to be able to create Shortcuts, as we have on our desktop, to LabVIEW files directly within a LabVIEW project tree. This will allow developper to quickly open VIs, LVClass, RunTime Menu, ..., from the project tree root. 
@@ -33,7 +49,7 @@ You can edit a Shortcut, using the Edit item from the right-click menu, to eithe
 - Quick access to a DQMH Module Main VI to avoid librarie tree expansions.
 - Add item from the LabVIEW Tools menu to avoid clicks.
 
-## LabVIEW Project Provider
+## LabVIEW Project Providers
 
 The LabVIEW Project Provider Framework is a previously internal-only feature for adding additional functionality to the LabVIEW Project Explorer.  With it you can do things like add new items to the project window and modify existing items by adding extra right-click menu options, glyphs to the icons, extra toolbars, etc. 
 
@@ -42,6 +58,8 @@ The LabVIEW Project Provider Framework is a previously internal-only feature for
 If you’re interested in learning more about this framework, please visit the [LabVIEW Project Providers group](https://forums.ni.com/t5/LabVIEW-Project-Providers/bd-p/bymqyodmkc) on the NI Community.
 
 The LabVIEW Shortcut Provider is a primary LabVIEW Project Provider, responsible for putting one or more new shortcut item types into the project tree.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
