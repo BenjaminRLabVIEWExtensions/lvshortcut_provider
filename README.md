@@ -36,9 +36,9 @@ The Create Shortcut wizard dialog helps the developper define the target file an
 
 <div align="center">
 
-![Wizard1](https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/blob/19258dcda8c912aee9dc6a3dce5ce02596cf8418/docs/LVProjectShortcut_Wizard_1.png?raw=true)
-
-![Wizard2](https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/blob/main/docs/LVProjectShortcut_Wizard_2.png?raw=true)
+|Shortcut Wizard Target|Shortcut Wizard Name|
+|:-:|:-:|
+|![Wizard1](https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/blob/19258dcda8c912aee9dc6a3dce5ce02596cf8418/docs/LVProjectShortcut_Wizard_1.png?raw=true)|![Wizard2](https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/blob/main/docs/LVProjectShortcut_Wizard_2.png?raw=true)|
 </div>
 
 Once the wizard finished, the new Shortcut item appaers in the LabVIEW project tree with the default file type icon with a shortcut arrow overlay. 
