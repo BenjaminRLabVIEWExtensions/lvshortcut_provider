@@ -16,8 +16,10 @@
 			<Item Name="LVProjectShortcut_GetItemIcon.vi" Type="VI" URL="../support/LVProjectShortcut_GetItemIcon.vi"/>
 			<Item Name="LVProjectShortcut_InitProperties.vi" Type="VI" URL="../support/LVProjectShortcut_InitProperties.vi"/>
 			<Item Name="LVProjectShortcut_RegisterOverlays.vi" Type="VI" URL="../support/LVProjectShortcut_RegisterOverlays.vi"/>
+			<Item Name="LVProjectShortcut_RetrieveFileSelectionMode.vi" Type="VI" URL="../support/LVProjectShortcut_RetrieveFileSelectionMode.vi"/>
 			<Item Name="LVProjectShortcut_RunEdit.vi" Type="VI" URL="../support/LVProjectShortcut_RunEdit.vi"/>
 			<Item Name="LVProjectShortcut_RunView.vi" Type="VI" URL="../support/LVProjectShortcut_RunView.vi"/>
+			<Item Name="LVProjectShortcut_StoreFileSelectionMode.vi" Type="VI" URL="../support/LVProjectShortcut_StoreFileSelectionMode.vi"/>
 			<Item Name="LVProjectShortcut_WriteProperties.vi" Type="VI" URL="../support/LVProjectShortcut_WriteProperties.vi"/>
 		</Item>
 		<Item Name="LVProjectShortcut_CreateNewWizard_Finalize.vi" Type="VI" URL="../LVProjectShortcut_CreateNewWizard_Finalize.vi"/>
@@ -44,9 +46,13 @@
 		<Item Name="LVProjectShortcut_Provider_OnPopupMenu.vi" Type="VI" URL="../LVProjectShortcut_Provider_OnPopupMenu.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Check for Contained Data Type.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/VariantDataType/Check for Contained Data Type.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="Type Specific Details.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/VariantDataType/Type Specific Details.ctl"/>
+				<Item Name="UserTags.lvlib" Type="Library" URL="/&lt;vilib&gt;/UserTags/UserTags.lvlib"/>
+				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 			</Item>
 			<Item Name="CreateNewWizard_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/CreateNewWizard_Interface.ctl"/>
 			<Item Name="Item_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Item_Interface.ctl"/>
