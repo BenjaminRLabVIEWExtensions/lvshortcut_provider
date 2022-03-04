@@ -95,6 +95,10 @@ Where the SupportedType specifies a GUID that represents the type of project ite
 
 The INI file needs to be signed. Based on [this Lavag discussion](https://lavag.org/topic/18545-i-have-taken-the-first-step-towards-unofficially-opening-up-the-project-provider-framework/) you can find the code in the support folder. The signed INI file is placed in the `Providers\GProviders` folder in order to be loaded by LabVIEW. 
 
+<div align="center">
+
+![INI File Signer](https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/blob/b14def59890c2543dcec5cea19424bff5ac0c385/docs/IniFileSigner.png?raw=true)
+</div>
 
 <div align="right">(<a href="#top">back to top</a>)</div>
 
