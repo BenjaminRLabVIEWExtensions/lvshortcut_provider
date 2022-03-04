@@ -1,4 +1,27 @@
+<div id="top"></div>
+
+[![GitHub all releases][release-shield]][release-url]
+[![Wiki][wiki-shield]][wiki-url]
+[![Issues][issues-shield]][issues-url]
+[![Zero-Clause BSD][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
 # LabVIEW Shortcut Provider
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#labview-shortcut-provider">LabVIEW Shortcut Provider</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#use-cases">Use Cases</a></li>
+        <li><a href="#labview-project-provider">LabVIEW Project Provider</a></li>
+      </ul>
+    </li>
+  </ol>
+</details>
 
 The idea. behind this plugin, is to be able to create Shortcuts, as we have on our desktop, to LabVIEW files directly within a LabVIEW project tree. This will allow developper to quickly open VIs, LVClass, RunTime Menu, ..., from the project tree root. 
 
@@ -36,3 +59,18 @@ The LabVIEW Project Provider Framework is a previously internal-only feature for
 If you’re interested in learning more about this framework, please visit the [LabVIEW Project Providers group](https://forums.ni.com/t5/LabVIEW-Project-Providers/bd-p/bymqyodmkc) on the NI Community.
 
 The LabVIEW Shortcut Provider is a primary LabVIEW Project Provider, responsible for putting one or more new shortcut item types into the project tree.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[release-shield]: https://img.shields.io/github/v/release/BenjaminRLabVIEWExtensions/lvshortcut_provider?color=orange&logo=labview&style=for-the-badge
+[release-url]: https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/releases/tag/1.0.0
+[wiki-shield]: https://img.shields.io/github/discussions/BenjaminRLabVIEWExtensions/lvshortcut_provider?style=for-the-badge
+[wiki-url]: https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/wiki
+[issues-shield]: https://img.shields.io/github/issues/BenjaminRLabVIEWExtensions/lvshortcut_provider?style=for-the-badge
+[issues-url]: https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/issues
+[license-shield]: https://img.shields.io/badge/LICENSE-Zero--Clause%20BSD-green?style=for-the-badge
+[license-url]: https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/master/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/benjaminrouffet/
