@@ -64,8 +64,8 @@ The LabVIEW Shortcut Provider is a primary LabVIEW Project Provider, responsible
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[release-shield]: https://img.shields.io/github/downloads/BenjaminRLabVIEWExtensions/lvshortcut_provider/total?style=for-the-badge
-[release-url]: https://github.com/BenjaminRLabVIEWExtensions/template/releases
+[release-shield]: https://img.shields.io/github/v/release/BenjaminRLabVIEWExtensions/lvshortcut_provider?color=orange&logo=labview&style=for-the-badge
+[release-url]: https://github.com/BenjaminRLabVIEWExtensions/template/releases/1.0.1
 [wiki-shield]: https://img.shields.io/github/discussions/BenjaminRLabVIEWExtensions/lvshortcut_provider?style=for-the-badge
 [wiki-url]: https://github.com/BenjaminRLabVIEWExtensions/template/wiki
 [issues-shield]: https://img.shields.io/github/issues/BenjaminRLabVIEWExtensions/template?style=for-the-badge
