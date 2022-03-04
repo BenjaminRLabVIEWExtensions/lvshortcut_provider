@@ -27,30 +27,42 @@ The idea. behind this plugin, is to be able to create Shortcuts, as we have on o
 
 This plugin allows developpers to create a new Shorcut from the popup menu that appears when My Computer is right-clicked. 
 
-![PopupMenuNew](https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/blob/e32c6f567916b5626aa58b6769160286c8a8d17c/docs/LVProjectShortcut_Popup_New.png)
+<div align="center">
+
+![PopupMenuNew](https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/blob/19258dcda8c912aee9dc6a3dce5ce02596cf8418/docs/LVProjectShortcut_Popup_New.png?raw=true)
+</div>
 
 The Create Shortcut wizard dialog helps the developper define the target file and name of a Shortcut. 
 
-![Wizard1](https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/blob/e32c6f567916b5626aa58b6769160286c8a8d17c/docs/LVProjectShortcut_Wizard_1.png)
+<div align="center">
 
-![Wizard2](https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/blob/e32c6f567916b5626aa58b6769160286c8a8d17c/docs/LVProjectShortcut_Wizard_2.png)
+|Shortcut Wizard Target|Shortcut Wizard Name|
+|:-:|:-:|
+|![Wizard1](https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/blob/19258dcda8c912aee9dc6a3dce5ce02596cf8418/docs/LVProjectShortcut_Wizard_1.png?raw=true)|![Wizard2](https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/blob/main/docs/LVProjectShortcut_Wizard_2.png?raw=true)|
+</div>
 
 Once the wizard finished, the new Shortcut item appaers in the LabVIEW project tree with the default file type icon with a shortcut arrow overlay. 
 
-![Item](https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/blob/e32c6f567916b5626aa58b6769160286c8a8d17c/docs/LVProjectShortcut_Item.png)
+<div align="center">
+
+![Item](https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/blob/19258dcda8c912aee9dc6a3dce5ce02596cf8418/docs/LVProjectShortcut_Item.png?raw=true)
+</div>
 
 Double-click on a Shortcut to open it within the active project context. You can also select Open from the right-click menu. 
 
 You can edit a Shortcut, using the Edit item from the right-click menu, to either change the target nor change the name. You can also drag and drop any LabVIEW files on the Shortcut in the project tree. This action will ask for confirmation before updating the Shortcut. 
 
-![Editor](https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/blob/e32c6f567916b5626aa58b6769160286c8a8d17c/docs/LVProjectShortcut_Item_Edit.png)
+<div align="center">
+
+![Editor](https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/blob/19258dcda8c912aee9dc6a3dce5ce02596cf8418/docs/LVProjectShortcut_Item_Edit.png?raw=true)
+</div>
 
 ## Use cases
 
 - Quick access to a DQMH Module Main VI to avoid librarie tree expansions.
 - Add item from the LabVIEW Tools menu to avoid clicks.
 
-## LabVIEW Project Provider
+## LabVIEW Project Providers
 
 The LabVIEW Project Provider Framework is a previously internal-only feature for adding additional functionality to the LabVIEW Project Explorer.  With it you can do things like add new items to the project window and modify existing items by adding extra right-click menu options, glyphs to the icons, extra toolbars, etc. 
 
@@ -60,17 +72,17 @@ If you’re interested in learning more about this framework, please visit the [
 
 The LabVIEW Shortcut Provider is a primary LabVIEW Project Provider, responsible for putting one or more new shortcut item types into the project tree.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<div align="right">(<a href="#top">back to top</a>)</div>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [release-shield]: https://img.shields.io/github/v/release/BenjaminRLabVIEWExtensions/lvshortcut_provider?color=orange&logo=labview&style=for-the-badge
-[release-url]: https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/releases/tag/1.0.0
+[release-url]: https://github.com/BenjaminRLabVIEWExtensions/template/releases/1.0.1
 [wiki-shield]: https://img.shields.io/github/discussions/BenjaminRLabVIEWExtensions/lvshortcut_provider?style=for-the-badge
-[wiki-url]: https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/wiki
-[issues-shield]: https://img.shields.io/github/issues/BenjaminRLabVIEWExtensions/lvshortcut_provider?style=for-the-badge
-[issues-url]: https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/issues
+[wiki-url]: https://github.com/BenjaminRLabVIEWExtensions/template/wiki
+[issues-shield]: https://img.shields.io/github/issues/BenjaminRLabVIEWExtensions/template?style=for-the-badge
+[issues-url]: https://github.com/BenjaminRLabVIEWExtensions/template/issues
 [license-shield]: https://img.shields.io/badge/LICENSE-Zero--Clause%20BSD-green?style=for-the-badge
-[license-url]: https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/master/LICENSE
+[license-url]: https://github.com/BenjaminRLabVIEWExtensions/template/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/benjaminrouffet/
