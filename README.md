@@ -64,13 +64,13 @@ The LabVIEW Shortcut Provider is a primary LabVIEW Project Provider, responsible
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[release-shield]: https://img.shields.io/github/downloads/BenjaminRLabVIEWExtensions/lvshortcut_provider/total?style=for-the-badge
-[release-url]: https://github.com/BenjaminRLabVIEWExtensions/template/releases
+[release-shield]: https://img.shields.io/github/v/release/BenjaminRLabVIEWExtensions/lvshortcut_provider?color=orange&logo=labview&style=for-the-badge
+[release-url]: https://github.com/BenjaminRLabVIEWExtensions/template/releases/1.0.1
 [wiki-shield]: https://img.shields.io/github/discussions/BenjaminRLabVIEWExtensions/lvshortcut_provider?style=for-the-badge
-[wiki-url]: https://github.com/BenjaminRLabVIEWExtensions/template/wiki
-[issues-shield]: https://img.shields.io/github/issues/BenjaminRLabVIEWExtensions/template?style=for-the-badge
-[issues-url]: https://github.com/BenjaminRLabVIEWExtensions/template/issues
+[wiki-url]: https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/wiki
+[issues-shield]: https://img.shields.io/github/issues/BenjaminRLabVIEWExtensions/lvshortcut_provider?style=for-the-badge
+[issues-url]: https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/issues
 [license-shield]: https://img.shields.io/badge/LICENSE-Zero--Clause%20BSD-green?style=for-the-badge
-[license-url]: https://github.com/BenjaminRLabVIEWExtensions/template/master/LICENSE
+[license-url]: https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/blob/05bab73065c172d65def9be935a4523e7b06779b/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/benjaminrouffet/
