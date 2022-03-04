@@ -10,43 +10,20 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="support" Type="Folder">
-			<Item Name="LVProjectShortcut_BrowseActiveProject.vi" Type="VI" URL="../support/LVProjectShortcut_BrowseActiveProject.vi"/>
-			<Item Name="LVProjectShortcut_Command.vi" Type="VI" URL="../support/LVProjectShortcut_Command.vi"/>
-			<Item Name="LVProjectShortcut_GetItemIcon.vi" Type="VI" URL="../support/LVProjectShortcut_GetItemIcon.vi"/>
-			<Item Name="LVProjectShortcut_InitProperties.vi" Type="VI" URL="../support/LVProjectShortcut_InitProperties.vi"/>
-			<Item Name="LVProjectShortcut_RegisterOverlays.vi" Type="VI" URL="../support/LVProjectShortcut_RegisterOverlays.vi"/>
-			<Item Name="LVProjectShortcut_RunEdit.vi" Type="VI" URL="../support/LVProjectShortcut_RunEdit.vi"/>
-			<Item Name="LVProjectShortcut_RunView.vi" Type="VI" URL="../support/LVProjectShortcut_RunView.vi"/>
-			<Item Name="LVProjectShortcut_WriteProperties.vi" Type="VI" URL="../support/LVProjectShortcut_WriteProperties.vi"/>
-		</Item>
-		<Item Name="LVProjectShortcut_CreateNewWizard_Finalize.vi" Type="VI" URL="../LVProjectShortcut_CreateNewWizard_Finalize.vi"/>
-		<Item Name="LVProjectShortcut_CreateNewWizard_GetWeight.vi" Type="VI" URL="../LVProjectShortcut_CreateNewWizard_GetWeight.vi"/>
-		<Item Name="LVProjectShortcut_CreateNewWizard_IncludeItem.vi" Type="VI" URL="../LVProjectShortcut_CreateNewWizard_IncludeItem.vi"/>
-		<Item Name="LVProjectShortcut_CreateNewWizard_Init.vi" Type="VI" URL="../LVProjectShortcut_CreateNewWizard_Init.vi"/>
-		<Item Name="LVProjectShortcut_CreateNewWizard_Interface.vi" Type="VI" URL="../LVProjectShortcut_CreateNewWizard_Interface.vi"/>
-		<Item Name="LVProjectShortcut_CreateNewWizard_Invoke.vi" Type="VI" URL="../LVProjectShortcut_CreateNewWizard_Invoke.vi"/>
-		<Item Name="LVProjectShortcut_CreateShortcut.vi" Type="VI" URL="../LVProjectShortcut_CreateShortcut.vi"/>
-		<Item Name="LVProjectShortcut_Item_CanDragToProjectWindow.vi" Type="VI" URL="../LVProjectShortcut_Item_CanDragToProjectWindow.vi"/>
-		<Item Name="LVProjectShortcut_Item_CanDropItem.vi" Type="VI" URL="../LVProjectShortcut_Item_CanDropItem.vi"/>
-		<Item Name="LVProjectShortcut_Item_Init.vi" Type="VI" URL="../LVProjectShortcut_Item_Init.vi"/>
-		<Item Name="LVProjectShortcut_Item_Interface.vi" Type="VI" URL="../LVProjectShortcut_Item_Interface.vi"/>
-		<Item Name="LVProjectShortcut_Item_NotifyChanged.vi" Type="VI" URL="../LVProjectShortcut_Item_NotifyChanged.vi"/>
-		<Item Name="LVProjectShortcut_Item_OnCommand.vi" Type="VI" URL="../LVProjectShortcut_Item_OnCommand.vi"/>
-		<Item Name="LVProjectShortcut_Item_OnDblClick.vi" Type="VI" URL="../LVProjectShortcut_Item_OnDblClick.vi"/>
-		<Item Name="LVProjectShortcut_Item_OnDropItem.vi" Type="VI" URL="../LVProjectShortcut_Item_OnDropItem.vi"/>
-		<Item Name="LVProjectShortcut_Item_OnPopupMenu.vi" Type="VI" URL="../LVProjectShortcut_Item_OnPopupMenu.vi"/>
-		<Item Name="LVProjectShortcut_Item_OnWizardComplete.vi" Type="VI" URL="../LVProjectShortcut_Item_OnWizardComplete.vi"/>
-		<Item Name="LVProjectShortcut_OnShortcutEdit.vi" Type="VI" URL="../LVProjectShortcut_OnShortcutEdit.vi"/>
-		<Item Name="LVProjectShortcut_OnShortcutView.vi" Type="VI" URL="../LVProjectShortcut_OnShortcutView.vi"/>
-		<Item Name="LVProjectShortcut_Provider_Interface.vi" Type="VI" URL="../LVProjectShortcut_Provider_Interface.vi"/>
-		<Item Name="LVProjectShortcut_Provider_OnCommand.vi" Type="VI" URL="../LVProjectShortcut_Provider_OnCommand.vi"/>
-		<Item Name="LVProjectShortcut_Provider_OnPopupMenu.vi" Type="VI" URL="../LVProjectShortcut_Provider_OnPopupMenu.vi"/>
+		<Item Name="LVProject Shortcut.lvlib" Type="Library" URL="../LVProject Shortcut.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Bold Particular String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Bold Particular String.vi"/>
+				<Item Name="Check for Contained Data Type.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/VariantDataType/Check for Contained Data Type.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="Type Specific Details.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/VariantDataType/Type Specific Details.ctl"/>
+				<Item Name="UserTags.lvlib" Type="Library" URL="/&lt;vilib&gt;/UserTags/UserTags.lvlib"/>
+				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 			</Item>
 			<Item Name="CreateNewWizard_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/CreateNewWizard_Interface.ctl"/>
 			<Item Name="Item_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Item_Interface.ctl"/>

@@ -15,8 +15,9 @@
     <li>
       <a href="#labview-shortcut-provider">LabVIEW Shortcut Provider</a>
       <ul>
+        <li><a href="#installation">Installation</a></li>
         <li><a href="#use-cases">Use Cases</a></li>
-        <li><a href="#labview-shortcut-providers">LabVIEW Project Providers</a></li>
+        <li><a href="#labview-project-provider">LabVIEW Project Provider</a></li>
       </ul>
     </li>
   </ol>
