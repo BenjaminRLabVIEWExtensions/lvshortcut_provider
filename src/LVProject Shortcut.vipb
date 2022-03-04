@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-02-18 21:54:39" Modified_Date="2022-03-04 11:11:33" Creator="Neo" Comments="" ID="b5a1f23888730aeeb233dd1004a8be63">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-02-18 21:54:39" Modified_Date="2022-03-04 16:23:30" Creator="Neo" Comments="" ID="9eae6810439764d494226da18b68a662">
   <Library_General_Settings>
     <Package_File_Name>BenjaminR_LVProject_Shortcut</Package_File_Name>
-    <Library_Version>1.0.1.6</Library_Version>
+    <Library_Version>1.0.1.14</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Providers</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -21,8 +21,8 @@
       <Pre-Build_VI/>
       <Post-Build_VI/>
       <Pre-Install_VI/>
-      <Post-Install_VI/>
-      <Pre-Uninstall_VI/>
+      <Post-Install_VI>support\Post-Install Custom Action.vi</Post-Install_VI>
+      <Pre-Uninstall_VI>support\Pre-Uninstall Custom Action.vi</Pre-Uninstall_VI>
       <Post-Uninstall_VI/>
     </Custom_Action_VIs>
     <VI_Package_Configuration_File>LVProject Shortcut.vipc</VI_Package_Configuration_File>
@@ -30,12 +30,14 @@
       <One_Line_Description_Summary>Adds Shortcut item into the LabVIEW project tree.</One_Line_Description_Summary>
       <Description>This plugin allows to create Shortcuts, as we have on our desktop, to LabVIEW files (VIs, LVClass, RunTime Menu, ...) directly within a LabVIEW project tree. 
 
-&lt;b&gt;You must restart LabVIEW before installation completes&lt;/b&gt;.</Description>
+&lt;color=ff471a&gt;You'll be prompt to restart LabVIEW after package install. &lt;b&gt;LabVIEW must be restarted to complete the install&lt;/b&gt;.&lt;/color&gt;</Description>
       <Copyright/>
       <Packager>BenjaminR</Packager>
-      <URL>https://github.com/Benji667/lvshortcut_provider</URL>
-      <Release_Notes>- Fix icons uninstall issue.
-- Fix restart LabVIEW after installation issue.</Release_Notes>
+      <URL>https://benjaminrlabviewextensions.github.io/lvshortcut_provider/</URL>
+      <Release_Notes>- Add file selection mode option to select either LLBs or packed project libraries files nor file in LLBs or packed project libraries.
+- Fix LLB or packed project libraries open issue.
+- Fix restart LabVIEW after installation issue.
+- Fix uninstall icons deleted issue.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -139,7 +141,7 @@
         <Path/>
       </Place_Folder_Contents>
     </Source_Files>
-    <License_Agreement_Filepath/>
+    <License_Agreement_Filepath>license.txt</License_Agreement_Filepath>
     <Licensing_and_Activation>
       <License_LF_file_path/>
       <Licensed_library_file_path/>
