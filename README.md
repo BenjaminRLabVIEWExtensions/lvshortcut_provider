@@ -18,6 +18,7 @@
         <li><a href="#installation">Installation</a></li>
         <li><a href="#use-cases">Use Cases</a></li>
         <li><a href="#labview-project-provider">LabVIEW Project Provider</a></li>
+		<li><a href="#ini-file-signer">INI File Signer</a></li>
       </ul>
     </li>
   </ol>
@@ -71,6 +72,29 @@ The LabVIEW Project Provider Framework is a previously internal-only feature for
 If you’re interested in learning more about this framework, please visit the [LabVIEW Project Providers group](https://forums.ni.com/t5/LabVIEW-Project-Providers/bd-p/bymqyodmkc) on the NI Community.
 
 The LabVIEW Shortcut Provider is a primary LabVIEW Project Provider, responsible for putting one or more new shortcut item types into the project tree.
+
+## INI File Signer
+
+Each provider contains an INI file that describes the supported type as well as the interfaces that are defined for that provider. Supported type represents the type ID (GUID) of the project item the provider applies to.
+
+The INI file for the LabVIEW Shortcut Provider will look like:
+
+`[Provider]=
+SupportedType={08DCC3D2-2795-4EAC-AB66-1A269B67C835}
+Alias=Shortcut
+ItemInterfaceVI=..\LVProjectShortcut\LVProjectShortcut_Item_Interface.vi
+CreateNewWizardInterfaceVI=..\LVProjectShortcut\LVProjectShortcut_CreateNewWizard_Interface.vi
+ProviderInterfaceVI=..\LVProjectShortcut\LVProjectShortcut_Provider_Interface.vi
+CreateNewWizardHost=Source
+IsPrimary=1
+LicenseName=None
+InterfaceVersion=1.0
+Signature=`
+
+Where the SupportedType specifies a GUID that represents the type of project item. As we created a new type of item, a new GUID has been chosen {08DCC3D2-2795-4EAC-AB66-1A269B67C835}.
+
+The INI file needs to be signed. Based on [this Lavag discussion](https://lavag.org/topic/18545-i-have-taken-the-first-step-towards-unofficially-opening-up-the-project-provider-framework/) you can find the code in the support folder. The signed INI file is placed in the `Providers\GProviders` folder in order to be loaded by LabVIEW. 
+
 
 <div align="right">(<a href="#top">back to top</a>)</div>
 
