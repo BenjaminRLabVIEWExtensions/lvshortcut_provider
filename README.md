@@ -51,11 +51,11 @@ You can edit a Shortcut, using the Edit item from the right-click menu, to eithe
 - Quick access to a DQMH Module Main VI to avoid librarie tree expansions.
 - Add item from the LabVIEW Tools menu to avoid clicks.
 
-## LabVIEW Project Providers
+## [LabVIEW Project Providers](https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/blob/e5741ee46bc1d309127067791d20c036919f05c0/LabVIEW%20Project%20Provider%20Framework.md)
 
 The LabVIEW Project Provider Framework is a previously internal-only feature for adding additional functionality to the LabVIEW Project Explorer.  With it you can do things like add new items to the project window and modify existing items by adding extra right-click menu options, glyphs to the icons, extra toolbars, etc. 
 
-**The LabVIEW Project Provider framework is an unsupported feature of LabVIEW.** 
+<p align="center"><b>The LabVIEW Project Provider framework is an unsupported feature of LabVIEW.</b></p>
 
 If you’re interested in learning more about this framework, please visit the [LabVIEW Project Providers group](https://forums.ni.com/t5/LabVIEW-Project-Providers/bd-p/bymqyodmkc) on the NI Community.
 
