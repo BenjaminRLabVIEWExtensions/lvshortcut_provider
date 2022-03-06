@@ -376,13 +376,13 @@ The following interfaces are available for a provider:
 
 Defines events that apply to builds, i.e. items under Build Specifications, in the project tree.
 Interface Method VIs:
-	<table style="width:55%" border="1px solid black">
+	<table style="width:50%" border="1px solid black">
 		<tr>
-			<td style="width:15%" border="1px solid black">Invoke</td>
-			<td style="width:15%" border="1px solid black">Preview<td>
-			<td style="width:15%" border="1px solid black">IsRunnable</td>
-			<td style="width:15%" border="1px solid black">Run</td>
-			<td style="width:15%" border="1px solid black">OnDuplicate</td>
+			<td style="width:10%" border="1px solid black">Invoke</td>
+			<td style="width:10%" border="1px solid black">Preview</td>
+			<td style="width:10%" border="1px solid black">IsRunnable</td>
+			<td style="width:10%" border="1px solid black">Run</td>
+			<td style="width:10%" border="1px solid black">OnDuplicate</td>
 		</tr>
 	</table>
 2- CreateNewWizard (Primary providers only)
@@ -391,7 +391,7 @@ Interface Method VIs:
 	<table style="width:55%" border="1px solid black">
 		<tr>
 			<td style="width:15%" border="1px solid black">Init</td>
-			<td style="width:15%" border="1px solid black">Invoke<td>
+			<td style="width:15%" border="1px solid black">Invoke</td>
 			<td style="width:15%" border="1px solid black">Finalize</td>
 			<td style="width:15%" border="1px solid black">GetNewItemInfo</td>
 			<td style="width:15%" border="1px solid black">GetCreateNewWeight</td>
@@ -404,7 +404,7 @@ Interface Method VIs:
 	<table style="width:55%" border="1px solid black">
 		<tr>
 			<td style="width:15%" border="1px solid black">Init</td>
-			<td style="width:15%" border="1px solid black">Exit<td>
+			<td style="width:15%" border="1px solid black">Exit</td>
 			<td style="width:15%" border="1px solid black">OnCommand</td>
 			<td style="width:15%" border="1px solid black">OnUpdateCommand</td>
 		</tr>
@@ -415,7 +415,7 @@ Interface Method VIs:
 	<table style="width:55%" border="1px solid black">
 		<tr>
 			<td style="width:15%" border="1px solid black">Init</td>
-			<td style="width:15%" border="1px solid black">Exit<td>
+			<td style="width:15%" border="1px solid black">Exit</td>
 			<td style="width:15%" border="1px solid black">OnCommand</td>
 			<td style="width:15%" border="1px solid black">OnUpdateCommand</td>
 		</tr>
@@ -426,7 +426,7 @@ Interface Method VIs:
 	<table style="width:55%" border="1px solid black">
 		<tr>
 			<td style="width:15%" border="1px solid black">GetSupportedCommands</td>
-			<td style="width:15%" border="1px solid black">GetDeployState<td>
+			<td style="width:15%" border="1px solid black">GetDeployState</td>
 			<td style="width:15%" border="1px solid black">NotifyCommandCompleted</td>
 		</tr>
 	</table>
@@ -436,7 +436,7 @@ Interface Method VIs:
 	<table style="width:55%" border="1px solid black">
 		<tr>
 			<td style="width:15%" border="1px solid black">InitItems</td>
-			<td style="width:15%" border="1px solid black">OnSaveProject<td>
+			<td style="width:15%" border="1px solid black">OnSaveProject</td>
 			<td style="width:15%" border="1px solid black">LoadComplete</td>
 			<td style="width:15%" border="1px solid black">OnCommand</td>
 			<td style="width:15%" border="1px solid black">OnSaveForPrevious</td>
@@ -444,7 +444,7 @@ Interface Method VIs:
 			<td style="width:15%" border="1px solid black">Startup</td>
 			<td style="width:15%" border="1px solid black">OnSaveForPreviousEx</td>
 			<td style="width:15%" border="1px solid black">OnUpdateCommandBegin</td>
-			<td style="width:15%" border="1px solid black">Shutdown<td>
+			<td style="width:15%" border="1px solid black">Shutdown</td>
 			<td style="width:15%" border="1px solid black">OnSaveForPreviousWithWarnings</td>
 			<td style="width:15%" border="1px solid black">OnUpdateCommandEnd</td>
 			<td style="width:15%" border="1px solid black">OnPopUpMenu</td>
@@ -457,7 +457,7 @@ Interface Method VIs:
 	<table style="width:55%" border="1px solid black">
 		<tr>
 			<td style="width:15%" border="1px solid black">GetRequiredFiles</td>
-			<td style="width:15%" border="1px solid black">GetDependents<td>
+			<td style="width:15%" border="1px solid black">GetDependents</td>
 			<td style="width:15%" border="1px solid black">GetCaller</td>
 		</tr>
 	</table>
