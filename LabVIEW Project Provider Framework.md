@@ -1,5 +1,37 @@
 # LabVIEW Project Provider
 
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#labview-project-explorer">LabVIEW Project Explorer</a>
+      <ul>
+        <li><a href="#labview-project-explorer-anatomy">LabVIEW Project Explorer Anatomy</a></li>
+		<ul>
+			<li><a href="#labview-project-item">LabVIEW Project Item</a></li>
+			<li><a href="#menu-item">Menu items</a></li> 
+			<li><a href="#menu-item">Popup menu items</a></li> 
+			<li><a href="#menu-item">Toolbar buttons</a></li> 
+		</ul>
+      </ul>
+    </li>
+	<li>
+      <a href="#labview-project-provider-framework">LabVIEW Project Provider Framework</a>
+      <ul>
+        <li><a href="#labview-project-explorer-anatomy">LabVIEW Project Explorer Anatomy</a></li>
+		<ul>
+			<li><a href="#ini-file">INI File</a></li>
+			<li><a href="#interface-vis">Interface VIs</a></li> 
+			<li><a href="#directory-structure">Directory Structure</a></li> 
+			<li><a href="#api-vis">API VIs</a></li>
+			<li><a href="#context">Context</a></li> 
+		</ul>
+      </ul>
+    </li>
+  </ol>
+</details>
+
 Prior LabVIEW 8.0, developers needed to 
 - handle files directly from disk. 
 - use the application instance selection shortcut menu, at the the bottom left corner of the front panel window or block diagram, to set the application instance to run a VI. 
@@ -340,3 +372,9 @@ The interface VIs tells the framework which VI's need to be run when a Project I
 
 
 The framework specifies a list of interfaces that must be implemented by providers. Each interface VI is a list of paths to dispatch VIs that point to each of the required methods that the providers must implement. Only the methods that the provider will provide need to be implemented. The VIs that implement these methods must conform to the particular connector description but the contents of the VI can be completely customized. Once a provider-based event occurs the provider framework will run the appropriate VI if a method has been customized for that event in the provider.
+
+### Directory Structure
+
+### API VIs
+
+### Context
