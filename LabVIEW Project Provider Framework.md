@@ -339,9 +339,9 @@ Here is a list of important GUIDs and Type strings:
 	</table>
 </details>
 
-**The INI file needs to be signed.**
-
-For LabVIEW to load a Project Provider, its INI file must contain a valid "signature" consisting of an enciphered MD5 hash of certain other values in the INI file.
+> **:memo: The INI file needs to be signed.**
+> 
+> For LabVIEW to load a Project Provider, its INI file must contain a valid "signature" consisting of an enciphered MD5 hash of certain other values in the INI file.
 
 It is a 5 step algorithm that is used to sign tokens:
 1- Retrieve the values (not the keys) as strings from the INI file and concatenate them with no delimiters.
