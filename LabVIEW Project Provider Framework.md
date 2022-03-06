@@ -42,7 +42,7 @@ Prior LabVIEW 8.0, developers needed to
 The LabVIEW Project Explorer window was introduce in LabVIEW 8.0 to provide a way to group and organize VIs and libraries, hardware and I/O, multiple targets, create build specifications, and deploy or download files to targets.
 
 <p align="center">
-	<img src="/docs/lvProjectExplorer.png">
+	<img src="https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/blob/e761405b4f612cd9ed9270a2323e47fa366c58a7/docs/lvProjectExplorer.png?raw=true">
 </p>
 
 The Project Explorer window includes the following items by default:
@@ -71,7 +71,7 @@ Refer to the following link to know more about the
 A Project Item is an individual element in a LabVIEW Project, LabVIEW Project Library, LabVIEW Class, or XControl. Each element has its own name and an icon based on the item types. Each item can have a status and properties that can be saved into the project file on disk or stored in memory only. 
 
 <p align="center">
-	<img src="/docs/projectItems.png" width="500" height="400">
+	<img src="https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/blob/e761405b4f612cd9ed9270a2323e47fa366c58a7/docs/projectItems.png?raw=true" width="500" height="400">
 </p>
 
 Overlays are smaller icons that appear on the Project Item's icon that show status or other properties.
@@ -85,7 +85,7 @@ An item in the tree can be the source or the target for a drag-and-drop operatio
 #### Menu items
 
 <p align="left">
-	<img src="/docs/menuItems.png">
+	<img src="https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/blob/e761405b4f612cd9ed9270a2323e47fa366c58a7/docs/menuItems.png?raw=true">
 </p>
 
 There are two basic types of menu items:
@@ -95,7 +95,7 @@ There are two basic types of menu items:
 #### Popup menu items
 
 <p align="left">
-	<img src="/docs/popupMenuItems.png">
+	<img src="https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/blob/e761405b4f612cd9ed9270a2323e47fa366c58a7/docs/popupMenuItems.png?raw=true">
 </p>
 
 The popup menu items appears when an item is right-clicked. The menu can be different depending on the item selected and the state of the item.
@@ -103,7 +103,7 @@ The popup menu items appears when an item is right-clicked. The menu can be diff
 #### Toolbar buttons
 
 <p align="left">
-	<img src="/docs/toolbar.png">
+	<img src="https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/blob/e761405b4f612cd9ed9270a2323e47fa366c58a7/docs/toolbar.png?raw=true">
 </p>
 
 The Project toolbar on the Project Explorer window contains buttons, with a different icon, for instance:
@@ -351,19 +351,19 @@ It is a 5 step algorithm that is used to sign tokens:
 5- Set the calculated signature to the proper token in the INI file.
 
 <p align="center">
-	<img src="/docs/computeSignature.png">
+	<img src="https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/blob/e761405b4f612cd9ed9270a2323e47fa366c58a7/docs/computeSignature.png?raw=true">
 </p>
 
 To read/write the INI file we can't use the classic INI File VIs because we can have the same token multiple times, such as supportedtype.
 
 <p align="center">
-	<img src="/docs/signIniFile.png">
+	<img src="https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/blob/e761405b4f612cd9ed9270a2323e47fa366c58a7/docs/signIniFile.png?raw=true">
 </p>
 
 INI File example:
 
 <p align="left">
-	<img src="/docs/iniFile.png">
+	<img src="https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/blob/e761405b4f612cd9ed9270a2323e47fa366c58a7/docs/iniFile.png?raw=true">
 </p>
 
 #### Interface VIs
@@ -475,7 +475,7 @@ The VIs in the API directory call into the provider framework to implement their
 The VIs under provider framework run in the `NI.LV.MxLvProvider` context. This can be observed on the front panel of a VI running the provider framework, as shown below:
 
 <p align="center">
-	<img src="/docs/context.png" width="400" height="200">
+	<img src="https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/blob/e761405b4f612cd9ed9270a2323e47fa366c58a7/docs/context.png?raw=true" width="400" height="200">
 </p>
 
 This can make the VIs behave differently than VIs that run under the `<ProjectName>/My Computer` context. Also, the front panels of VIs to be executed under provider framework
