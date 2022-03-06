@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>LabVIEW Shortcut Provider</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+		<link href="/assets/base.css" media="screen" rel="stylesheet" type="text/css" />
+		<link rel="shortcut icon" href="/assets/favicon.ico" />
+
+		<script src="https://kit.fontawesome.com/f98f757188.js" crossorigin="anonymous"></script>
+		
+	</head>
+	<body>		
+		<!-- <a id="forkme_banner" href="https://github.com/BenjaminRLabVIEWExtensions">View on GitHub</a> -->
+		<div class="wrapper">
+			<div class="profile">
+				<section class="profile-masthead" id="masthead">
+					<header class="profile-logo">
+						<div class="profile-logo-image">
+							<img alt="LabVIEW Shortcut Provider" src="/LabVIEW_Extensions_Small.png" />
+						</div>
+						<div class="profile-name">
+							<h1>LabVIEW Shortcut Provider</h1>
+						</div>
+					</header>
+					<aside class="profile-summary">
+						<div class="summary-location summary-module">
+							<a href="https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider">View on GitHub</a>
+						</div>
+					</aside>
+				</section>
+				<section class="profile-content" id="content">
+					<!-- TODO header? -->
+					
+					<div class="profile-description">
+						<p>Here is an example that demonstrates how to use the LabVIEW Project Provider framework to pimp you LabVIEW Project Explorer.</p>
+					</div>
+					<article class="profile-menu" id="menu">
+					<!-- TABLE OF CONTENTS -->
+					<details>
+					  <summary>Table of Contents</summary>
+					  <ol>
+						<li>
+						  <a href="#labview-shortcut-provider">LabVIEW Shortcut Provider</a>
+						  <ul>
+							<li><a href="#installation">Installation</a></li>
+							<li><a href="#use-cases">Use Cases</a></li>
+							<li><a href="#labview-project-provider">LabVIEW Project Provider</a></li>
+							<li><a href="#ini-file-signer">INI File Signer</a></li>
+						  </ul>
+						</li>
+					  </ol>
+					</details>
+
+					<p>The idea. behind this plugin, is to be able to create Shortcuts, as we have on our desktop, to LabVIEW files directly within a LabVIEW project tree. This will allow developper to quickly open VIs, LVClass, RunTime Menu, ..., from the project tree root. </p>
+					
+					<p>This plugin allows developpers to create a new Shorcut from the popup menu that appears when My Computer is right-clicked. </p>
+
+					<div align="left">
+						<img src="https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/blob/19258dcda8c912aee9dc6a3dce5ce02596cf8418/docs/LVProjectShortcut_Popup_New.png?raw=true" alt="PopupMenuNew">
+					</div>
+
+					<p>The Create Shortcut wizard dialog helps the developper define the target file and name of a Shortcut. </p>
+						<div align="left">
+							<table style="width:30%" border="0px solid black">
+								<tr>
+									<th style="width:15%" border="0px solid black">Shortcut Wizard Target</th>
+									<th style="width:15%" border="0px solid black">Shortcut Wizard Name</th>
+								</tr>
+								<tr>
+									<td border="0px solid black"><img src="https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/blob/19258dcda8c912aee9dc6a3dce5ce02596cf8418/docs/LVProjectShortcut_Wizard_1.png?raw=true" alt="Wizard1"></td>
+									<td border="0px solid black"><img src="https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/blob/main/docs/LVProjectShortcut_Wizard_2.png?raw=true" alt="Wizard2"></td>
+								</tr>
+							</table>
+						</div>
+
+					<p>Once the wizard finished, the new Shortcut item appaers in the LabVIEW project tree with the default file type icon with a shortcut arrow overlay. </p>
+						<div align="left">
+							<img src="https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/blob/19258dcda8c912aee9dc6a3dce5ce02596cf8418/docs/LVProjectShortcut_Item.png?raw=true" alt="Item">
+						</div>
+						<p>Double-click on a Shortcut to open it within the active project context. You can also select Open from the right-click menu. </p>
+						<p>You can edit a Shortcut, using the Edit item from the right-click menu, to either change the target nor change the name. You can also drag and drop any LabVIEW files on the Shortcut in the project tree. This action will ask for confirmation before updating the Shortcut. </p>
+						<div align="left">
+							<img src="https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/blob/19258dcda8c912aee9dc6a3dce5ce02596cf8418/docs/LVProjectShortcut_Item_Edit.png?raw=true" alt="Editor">
+						</div>
+
+						<h2 id="use-cases">Use cases</h2>
+						<ul>
+							<li>Quick access to a DQMH Module Main VI to avoid librarie tree expansions.</li>
+							<li>Add item from the LabVIEW Tools menu to avoid clicks.</li>
+						</ul>
+					
+						<h2 id="labview-project-providers">
+							LabVIEW Project Providers
+						</h2>
+						<p>The LabVIEW Project Provider Framework is a previously internal-only feature for adding additional functionality to the LabVIEW Project Explorer.  With it you can do things like add new items to the project window and modify existing items by adding extra right-click menu options, glyphs to the icons, extra toolbars, etc.</p>
+						<p>
+							<strong>The LabVIEW Project Provider framework is an unsupported feature of LabVIEW.</strong>
+						</p>
+						<p>If you’re interested in learning more about this framework, please visit the 
+							<a href=benjaminrlabviewextensions.github.io/lvshortcut_provider/LabVIEW_Project_Provider_Framework.html>
+								LabVIEW Project Providers page
+							</a>.
+						</p>
+						<p>The LabVIEW Shortcut Provider is a primary LabVIEW Project Provider, responsible for putting one or more new shortcut item types into the project tree.</p>
+						</article>
+				</section>
+		  </div>
+		</div>
+			
+			<footer class="footer">
+				<nav class="footer-navigation">
+					<i class="icon-square-footer"></i>
+					<ul class="footer-navigation-list">
+						<li class="footer-navigation-item"><a href="benjaminrlabviewextensions.github.io/lvshortcut_provider/">Home</a></li>
+						<li class="footer-navigation-item"><a href="/about">About</a></li>
+						<li class="footer-navigation-item"><a href="/aboutme">About Me</a></li>
+					</ul>
+					<p class="copyright">© 2022 BenjaminR, maintained by <a href="https://github.com/Benji667">BenjaminR</a>.</p>
+				</nav>
+			</footer>
+
+
+			<!-- MARKDOWN LINKS & IMAGES -->
+			<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+	</body>
+</html>
