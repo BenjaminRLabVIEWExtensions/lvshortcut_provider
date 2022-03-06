@@ -382,6 +382,8 @@ Interface Method VIs:
 			<td style="width:10%" border="1px solid black">Preview</td>
 			<td style="width:10%" border="1px solid black">IsRunnable</td>
 			<td style="width:10%" border="1px solid black">Run</td>
+		</tr>
+		<tr>
 			<td style="width:10%" border="1px solid black">OnDuplicate</td>
 		</tr>
 	</table>
@@ -394,6 +396,8 @@ Interface Method VIs:
 			<td style="width:15%" border="1px solid black">Invoke</td>
 			<td style="width:15%" border="1px solid black">Finalize</td>
 			<td style="width:15%" border="1px solid black">GetNewItemInfo</td>
+		</tr>
+		<tr>
 			<td style="width:15%" border="1px solid black">GetCreateNewWeight</td>
 			<td style="width:15%" border="1px solid black">IncludeItem</td>
 		</tr>
@@ -439,16 +443,20 @@ Interface Method VIs:
 			<td style="width:15%" border="1px solid black">OnSaveProject</td>
 			<td style="width:15%" border="1px solid black">LoadComplete</td>
 			<td style="width:15%" border="1px solid black">OnCommand</td>
-			<td style="width:15%" border="1px solid black">OnSaveForPrevious</td>
-			<td style="width:15%" border="1px solid black">LoadCompleteWithWarnings<td>
 		</tr>
 		<tr>
+			<td style="width:15%" border="1px solid black">OnSaveForPrevious</td>
+			<td style="width:15%" border="1px solid black">LoadCompleteWithWarnings<td>
 			<td style="width:15%" border="1px solid black">Startup</td>
 			<td style="width:15%" border="1px solid black">OnSaveForPreviousEx</td>
+		</tr>
+		<tr>
 			<td style="width:15%" border="1px solid black">OnUpdateCommandBegin</td>
 			<td style="width:15%" border="1px solid black">Shutdown</td>
 			<td style="width:15%" border="1px solid black">OnSaveForPreviousWithWarnings</td>
 			<td style="width:15%" border="1px solid black">OnUpdateCommandEnd</td>
+		</tr>
+		<tr>
 			<td style="width:15%" border="1px solid black">OnPopUpMenu</td>
 			<td style="width:15%" border="1px solid black">NotifyChanged<td>
 		</tr>
