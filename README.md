@@ -90,7 +90,7 @@ The INI file needs to be signed. Based on [this Lavag discussion](https://lavag.
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [release-shield]: https://img.shields.io/github/v/release/BenjaminRLabVIEWExtensions/lvshortcut_provider?color=orange&logo=labview&style=for-the-badge
-[release-url]: https://github.com/BenjaminRLabVIEWExtensions/template/releases/1.0.1
+[release-url]: https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/releases/1.0.1
 [wiki-shield]: https://img.shields.io/github/discussions/BenjaminRLabVIEWExtensions/lvshortcut_provider?style=for-the-badge
 [wiki-url]: https://github.com/BenjaminRLabVIEWExtensions/lvshortcut_provider/wiki
 [issues-shield]: https://img.shields.io/github/issues/BenjaminRLabVIEWExtensions/lvshortcut_provider?style=for-the-badge
