@@ -475,7 +475,7 @@ The VIs in the API directory call into the provider framework to implement their
 The VIs under provider framework run in the `NI.LV.MxLvProvider` context. This can be observed on the front panel of a VI running the provider framework, as shown below:
 
 <p align="center">
-	<img src="/docs/context.png">
+	<img src="/docs/context.png" width="400" height="200">
 </p>
 
 This can make the VIs behave differently than VIs that run under the `<ProjectName>/My Computer` context. Also, the front panels of VIs to be executed under provider framework
