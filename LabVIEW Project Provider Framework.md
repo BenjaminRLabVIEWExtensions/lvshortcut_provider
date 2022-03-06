@@ -373,20 +373,13 @@ The interface VIs tells the framework which VI's need to be run when a Project I
 The following interfaces are available for a provider:
 
 1- Build (Primary providers only)
-
 Defines events that apply to builds, i.e. items under Build Specifications, in the project tree.
 Interface Method VIs:
-	<table style="width:50%" border="1px solid black">
-		<tr>
-			<td style="width:10%" border="1px solid black">Invoke</td>
-			<td style="width:10%" border="1px solid black">Preview</td>
-			<td style="width:10%" border="1px solid black">IsRunnable</td>
-			<td style="width:10%" border="1px solid black">Run</td>
-		</tr>
-		<tr>
-			<td style="width:10%" border="1px solid black">OnDuplicate</td>
-		</tr>
-	</table>
+	* Invoke
+	* Preview
+	* IsRunnable
+	* Run
+	* OnDuplicate
 2- CreateNewWizard (Primary providers only)
 Defines events that occur while adding items of new types to the project tree.
 Interface Method VIs:
