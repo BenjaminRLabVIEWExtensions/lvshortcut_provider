@@ -441,6 +441,8 @@ Interface Method VIs:
 			<td style="width:15%" border="1px solid black">OnCommand</td>
 			<td style="width:15%" border="1px solid black">OnSaveForPrevious</td>
 			<td style="width:15%" border="1px solid black">LoadCompleteWithWarnings<td>
+		</tr>
+		<tr>
 			<td style="width:15%" border="1px solid black">Startup</td>
 			<td style="width:15%" border="1px solid black">OnSaveForPreviousEx</td>
 			<td style="width:15%" border="1px solid black">OnUpdateCommandBegin</td>
