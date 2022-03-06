@@ -372,101 +372,99 @@ The interface VIs tells the framework which VI's need to be run when a Project I
 
 The following interfaces are available for a provider:
 
-1- Build (Primary providers only)
-Defines events that apply to builds, i.e. items under Build Specifications, in the project tree.
+* **Build** (Primary providers only): defines events that apply to builds, i.e. items under Build Specifications, in the project tree.
 Interface Method VIs:
 	* Invoke
 	* Preview
 	* IsRunnable
 	* Run
 	* OnDuplicate
-2- CreateNewWizard (Primary providers only)
-Defines events that occur while adding items of new types to the project tree.
+
+---
+
+* **CreateNewWizard** (Primary providers only): defines events that occur while adding items of new types to the project tree.
 Interface Method VIs:
-	<table style="width:55%" border="1px solid black">
-		<tr>
-			<td style="width:15%" border="1px solid black">Init</td>
-			<td style="width:15%" border="1px solid black">Invoke</td>
-			<td style="width:15%" border="1px solid black">Finalize</td>
-			<td style="width:15%" border="1px solid black">GetNewItemInfo</td>
-		</tr>
-		<tr>
-			<td style="width:15%" border="1px solid black">GetCreateNewWeight</td>
-			<td style="width:15%" border="1px solid black">IncludeItem</td>
-		</tr>
-	</table>
-3- Global
-Defines global-level events that are not tied into a specific item type.
+	* Init
+	* Invoke
+	* Finalize
+	* GetNewItemInfo
+	* GetCreateNewWeight
+	* IncludeItem
+
+---
+
+* **Global** : defines global-level events that are not tied into a specific item type.
 Interface Method VIs:
-	<table style="width:55%" border="1px solid black">
-		<tr>
-			<td style="width:15%" border="1px solid black">Init</td>
-			<td style="width:15%" border="1px solid black">Exit</td>
-			<td style="width:15%" border="1px solid black">OnCommand</td>
-			<td style="width:15%" border="1px solid black">OnUpdateCommand</td>
-		</tr>
-	</table>
-4- Item
-Defines events that occur to individual items in the project tree.
+	* Init
+	* Exit
+	* OnCommand
+	* OnUpdateCommand
+
+---
+
+* **Item** : defines events that occur to individual items in the project tree.
 Interface Method VIs:
-	<table style="width:55%" border="1px solid black">
-		<tr>
-			<td style="width:15%" border="1px solid black">Init</td>
-			<td style="width:15%" border="1px solid black">Exit</td>
-			<td style="width:15%" border="1px solid black">OnCommand</td>
-			<td style="width:15%" border="1px solid black">OnUpdateCommand</td>
-		</tr>
-	</table>
-5- ProjectDeployItem
-Defines events that support deploying of an item in the project tree.
+	* Init
+	* Exit
+	* OnCommand
+	* OnUpdateCommand
+
+---
+
+* **ProjectDeployItem** : defines events that support deploying of an item in the project tree.
 Interface Method VIs:
-	<table style="width:55%" border="1px solid black">
-		<tr>
-			<td style="width:15%" border="1px solid black">GetSupportedCommands</td>
-			<td style="width:15%" border="1px solid black">GetDeployState</td>
-			<td style="width:15%" border="1px solid black">NotifyCommandCompleted</td>
-		</tr>
-	</table>
-6- Provider
-Defines events that occur to multiple items in the project tree.
+	* GetSupportedCommands
+	* GetDeployState
+	* NotifyCommandCompleted
+
+---
+
+* **Provider** : defines events that occur to multiple items in the project tree.
 Interface Method VIs:
-	<table style="width:55%" border="1px solid black">
-		<tr>
-			<td style="width:15%" border="1px solid black">InitItems</td>
-			<td style="width:15%" border="1px solid black">OnSaveProject</td>
-			<td style="width:15%" border="1px solid black">LoadComplete</td>
-			<td style="width:15%" border="1px solid black">OnCommand</td>
-		</tr>
-		<tr>
-			<td style="width:15%" border="1px solid black">OnSaveForPrevious</td>
-			<td style="width:15%" border="1px solid black">LoadCompleteWithWarnings<td>
-			<td style="width:15%" border="1px solid black">Startup</td>
-			<td style="width:15%" border="1px solid black">OnSaveForPreviousEx</td>
-		</tr>
-		<tr>
-			<td style="width:15%" border="1px solid black">OnUpdateCommandBegin</td>
-			<td style="width:15%" border="1px solid black">Shutdown</td>
-			<td style="width:15%" border="1px solid black">OnSaveForPreviousWithWarnings</td>
-			<td style="width:15%" border="1px solid black">OnUpdateCommandEnd</td>
-		</tr>
-		<tr>
-			<td style="width:15%" border="1px solid black">OnPopUpMenu</td>
-			<td style="width:15%" border="1px solid black">NotifyChanged<td>
-		</tr>
-	</table>	
-7- SourceControl
-Defines events that apply to source code control functionality
+	* InitItems
+	* OnSaveProject
+	* LoadComplete
+	* OnCommand
+	* OnSaveForPrevious
+	* LoadCompleteWithWarnings
+	* Startup
+	* OnSaveForPreviousEx
+	* OnUpdateCommandBegin
+	* Shutdown
+	* OnSaveForPreviousWithWarnings
+	* OnUpdateCommandEnd
+	* OnPopUpMenu
+	* NotifyChanged
+
+---
+
+* **SourceControl** : defines events that apply to source code control functionality.
 Interface Method VIs:
-	<table style="width:55%" border="1px solid black">
-		<tr>
-			<td style="width:15%" border="1px solid black">GetRequiredFiles</td>
-			<td style="width:15%" border="1px solid black">GetDependents</td>
-			<td style="width:15%" border="1px solid black">GetCaller</td>
-		</tr>
-	</table>
-  
+	* GetRequiredFiles
+	* GetDependents
+	* GetCaller
 	
 ### Directory Structure
+
+All the VI-based providers and provider APIs can be found at:
+- On Windows:`<LabVIEW install directory>/resource/Framework/Providers/`. 
+- On Mac OS: `/Applications/National Instruments/<LabVIEW XXXX 64-bit>/resource/Framework/Providers/`.
+
+This directory further contains following directories:
+
+* **API** : this directory contains type-definition controls defining the specifications for the various interface VIs. It also contains several helpful VIs that can be used from within the provider framework to perform frequent provider tasks, e.g., getting or setting project item properties.
+
+* **Common** : this directory also contains reusable VIs that are useful to writing providers. They are simple VIs and unlike the API VIs do not call into the provider framework.
+
+* **GProviders** : this directory was introduced in LabVIEW 2011. It is mandatory to have all the INI files in this directory for LabVIEW versions post-2010 for the providers to be loaded. This change is backward-compatible: a provider with its INI in the GProviders directory behaves the same way in a previous version of LabVIEW. It is highly recommended to follow this standard while building providers with any version of LabVIEW.
+
+* **Icons** : this is the recommended location for all your provider icons. You can place icons at other locations as well but remember to specify the path with respect to the INI file location when setting the icons in provider VIs.
+
+* **`<Provider>`** : each provider should be located in a separate directory under:
+	- On Windows: - On Windows:`<LabVIEW install directory>/resource/Framework/Providers/`. 
+	- On Mac OS: `/Applications/National Instruments/<LabVIEW XXXX 64-bit>/resource/Framework/Providers/`.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :bulb: This is not strictly enforced but is highly recommended.
 
 ### API VIs
 
