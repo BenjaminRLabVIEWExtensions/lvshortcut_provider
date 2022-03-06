@@ -1,3 +1,7 @@
+layout: page 
+title: "LabVIEW Project Providing" 
+permalink: /lvproject/
+
 # LabVIEW Project Provider
 
 <!-- TABLE OF CONTENTS -->
