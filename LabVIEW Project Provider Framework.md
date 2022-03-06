@@ -368,11 +368,101 @@ INI File example:
 
 #### Interface VIs
 
-The interface VIs tells the framework which VI's need to be run when a Project Item event occurs. They consist of a list of VI paths that point to each of the required methods that the providers must implement.
+The interface VIs tells the framework which VI's need to be run when a Project Item event occurs. They consist of a list of VI paths that point to each of the required methods that the providers must implement. You can completely customize these VIs event if you must conform to the particular connector pane. 
 
+The following interfaces are available for a provider:
 
-The framework specifies a list of interfaces that must be implemented by providers. Each interface VI is a list of paths to dispatch VIs that point to each of the required methods that the providers must implement. Only the methods that the provider will provide need to be implemented. The VIs that implement these methods must conform to the particular connector description but the contents of the VI can be completely customized. Once a provider-based event occurs the provider framework will run the appropriate VI if a method has been customized for that event in the provider.
+1- Build (Primary providers only)
 
+Defines events that apply to builds, i.e. items under Build Specifications, in the project tree.
+Interface Method VIs:
+	<table style="width:55%" border="1px solid black">
+		<tr>
+			<td style="width:15%" border="1px solid black">Invoke</td>
+			<td style="width:15%" border="1px solid black">Preview<td>
+			<td style="width:15%" border="1px solid black">IsRunnable</td>
+			<td style="width:15%" border="1px solid black">Run</td>
+			<td style="width:15%" border="1px solid black">OnDuplicate</td>
+		</tr>
+	</table>
+2- CreateNewWizard (Primary providers only)
+Defines events that occur while adding items of new types to the project tree.
+Interface Method VIs:
+	<table style="width:55%" border="1px solid black">
+		<tr>
+			<td style="width:15%" border="1px solid black">Init</td>
+			<td style="width:15%" border="1px solid black">Invoke<td>
+			<td style="width:15%" border="1px solid black">Finalize</td>
+			<td style="width:15%" border="1px solid black">GetNewItemInfo</td>
+			<td style="width:15%" border="1px solid black">GetCreateNewWeight</td>
+			<td style="width:15%" border="1px solid black">IncludeItem</td>
+		</tr>
+	</table>
+3- Global
+Defines global-level events that are not tied into a specific item type.
+Interface Method VIs:
+	<table style="width:55%" border="1px solid black">
+		<tr>
+			<td style="width:15%" border="1px solid black">Init</td>
+			<td style="width:15%" border="1px solid black">Exit<td>
+			<td style="width:15%" border="1px solid black">OnCommand</td>
+			<td style="width:15%" border="1px solid black">OnUpdateCommand</td>
+		</tr>
+	</table>
+4- Item
+Defines events that occur to individual items in the project tree.
+Interface Method VIs:
+	<table style="width:55%" border="1px solid black">
+		<tr>
+			<td style="width:15%" border="1px solid black">Init</td>
+			<td style="width:15%" border="1px solid black">Exit<td>
+			<td style="width:15%" border="1px solid black">OnCommand</td>
+			<td style="width:15%" border="1px solid black">OnUpdateCommand</td>
+		</tr>
+	</table>
+5- ProjectDeployItem
+Defines events that support deploying of an item in the project tree.
+Interface Method VIs:
+	<table style="width:55%" border="1px solid black">
+		<tr>
+			<td style="width:15%" border="1px solid black">GetSupportedCommands</td>
+			<td style="width:15%" border="1px solid black">GetDeployState<td>
+			<td style="width:15%" border="1px solid black">NotifyCommandCompleted</td>
+		</tr>
+	</table>
+6- Provider
+Defines events that occur to multiple items in the project tree.
+Interface Method VIs:
+	<table style="width:55%" border="1px solid black">
+		<tr>
+			<td style="width:15%" border="1px solid black">InitItems</td>
+			<td style="width:15%" border="1px solid black">OnSaveProject<td>
+			<td style="width:15%" border="1px solid black">LoadComplete</td>
+			<td style="width:15%" border="1px solid black">OnCommand</td>
+			<td style="width:15%" border="1px solid black">OnSaveForPrevious</td>
+			<td style="width:15%" border="1px solid black">LoadCompleteWithWarnings<td>
+			<td style="width:15%" border="1px solid black">Startup</td>
+			<td style="width:15%" border="1px solid black">OnSaveForPreviousEx</td>
+			<td style="width:15%" border="1px solid black">OnUpdateCommandBegin</td>
+			<td style="width:15%" border="1px solid black">Shutdown<td>
+			<td style="width:15%" border="1px solid black">OnSaveForPreviousWithWarnings</td>
+			<td style="width:15%" border="1px solid black">OnUpdateCommandEnd</td>
+			<td style="width:15%" border="1px solid black">OnPopUpMenu</td>
+			<td style="width:15%" border="1px solid black">NotifyChanged<td>
+		</tr>
+	</table>	
+7- SourceControl
+Defines events that apply to source code control functionality
+Interface Method VIs:
+	<table style="width:55%" border="1px solid black">
+		<tr>
+			<td style="width:15%" border="1px solid black">GetRequiredFiles</td>
+			<td style="width:15%" border="1px solid black">GetDependents<td>
+			<td style="width:15%" border="1px solid black">GetCaller</td>
+		</tr>
+	</table>
+  
+	
 ### Directory Structure
 
 ### API VIs
